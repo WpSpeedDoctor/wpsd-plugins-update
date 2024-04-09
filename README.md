@@ -1,2 +1,2 @@
-# plugin-update-test
-Test creating release and automatic updates
+# plugins-update
+repo to make automatic plugins update work.
