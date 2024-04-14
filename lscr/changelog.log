@@ -1,0 +1,14 @@
+== 1.0.27 | 14th April 2024 ==
+* update unfinished stats summary on cron event
+* refactored SQL code
+* added in statistics % of crawlerd
+* added in statistics time transcurrent
+* added auto update from github
+
+== 1.0.26 | 11th April 2024 ==
+* bug fix sitemap fetching
+* added logging for sitemap fetch attempt
+* update unfinished stats summary when viewing stats menu
+
+== 1.0.25 | 10th April 2024 ==
+* bug fix compatibility 7.4
