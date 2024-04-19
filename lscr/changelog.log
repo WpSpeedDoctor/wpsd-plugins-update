@@ -1,17 +1,22 @@
+== 1.0.29 | 19th April 2024 ==
+* sitmap has TTL 120 minutes for refreshing, purged on save settings
+* small bugs fixes
+* not paused at all after cache made hit on all crawled threads
+
 == 1.0.28 | 15th April 2024 ==
-* bugfix in the statistics menu
+* bugs fix in the statistics menu
 
 == 1.0.27 | 14th April 2024 ==
 * update unfinished stats summary on cron event
 * refactored SQL code
-* added in statistics % of crawled
+* added in statistics % of crawlerd
 * added in statistics time transcurrent
-* added auto update from GitHub
+* added auto update from github
 
 == 1.0.26 | 11th April 2024 ==
-* bugfix sitemap fetching
+* bug fix sitemap fetching
 * added logging for sitemap fetch attempt
 * update unfinished stats summary when viewing stats menu
 
 == 1.0.25 | 10th April 2024 ==
-* bugfix compatibility 7.4
+* bug fix compatibility 7.4
