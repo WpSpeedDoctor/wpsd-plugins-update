@@ -1,3 +1,11 @@
+== 1.0.31 | 22th April 2024 ==
+* sitemap update button bugfix
+* statistics algorithm updated. Before min, max, avg was calculated from http responce 200, now from all
+* when fetching sitemap no delay between requests
+* statistics menu tweaks
+* after saving settings the sitemap is automatically updated by AJAX
+* added sitemap TTL into the settings menu, default 2 hours
+
 == 1.0.30 | 22th April 2024 ==
 * sitemap TTL refactored, transient is used now
 * added to statistics summary Avg no-hit TTFB
