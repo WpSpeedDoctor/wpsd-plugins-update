@@ -1,3 +1,11 @@
+== 1.0.30 | 22th April 2024 ==
+* sitemap TTL refactored, transient is used now
+* added to statistics summary Avg no-hit TTFB
+* added to settings menu sitemap update button and display URL counts. 
+
+== 1.0.29.2 | 20th April 2024 ==
+* sitemap generation added homepage on the top
+
 == 1.0.29.1 | 20th April 2024 ==
 * stitemap TTL bug fix
 
@@ -22,4 +30,4 @@
 * update unfinished stats summary when viewing stats menu
 
 == 1.0.25 | 10th April 2024 ==
-* bug fix compatibility 7.4
+* bugfix compatibility 7.4
