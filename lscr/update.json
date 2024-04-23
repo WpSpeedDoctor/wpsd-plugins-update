@@ -1,10 +1,10 @@
 {
-  "version": "1.0.31",
+  "version": "1.0.32",
   "download_link": "https://raw.githubusercontent.com/WpSpeedDoctor/wpsd-plugins-update/main/lscr/litespeed-crawler.zip",
   "requires": "5.9",
   "tested": "6.5.2",
   "requires_php": "7.4",
-  "last_updated": "2024-04-22",
+  "last_updated": "2024-04-23",
   "sections": {
   }
 }
