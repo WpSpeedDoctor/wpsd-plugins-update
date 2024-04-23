@@ -1,6 +1,9 @@
+== 1.0.32 | 23th April 2024 ==
+* Sitemap fetch refactored, displays stats in the Settings menu
+
 == 1.0.31 | 22th April 2024 ==
 * sitemap update button bugfix
-* statistics algorithm updated. Before min, max, avg was calculated from http responce 200, now from all
+* statistics algorithm updated. Before min, max, avg was calculated from HTTP response 200, now from all
 * when fetching sitemap no delay between requests
 * statistics menu tweaks
 * after saving settings the sitemap is automatically updated by AJAX
@@ -26,16 +29,16 @@
 * bugs fix in the statistics menu
 
 == 1.0.27 | 14th April 2024 ==
-* update unfinished stats summary on cron event
+* update unfinished stats summary on the cron event
 * refactored SQL code
-* added in statistics % of crawlerd
+* added in statistics % of crawled
 * added in statistics time transcurrent
-* added auto update from github
+* added auto update from GitHub
 
 == 1.0.26 | 11th April 2024 ==
-* bug fix sitemap fetching
+* bugfix sitemap fetching
 * added logging for sitemap fetch attempt
-* update unfinished stats summary when viewing stats menu
+* update unfinished stats summary when viewing the stats menu
 
 == 1.0.25 | 10th April 2024 ==
 * bugfix compatibility 7.4
