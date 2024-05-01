@@ -1,3 +1,15 @@
+== 1.0.35 | 1st may 2024 ==
+* added content of post_type 'adv_plugin_filter' into debug information field
+* added admin notice that mu-plugin could not be created
+* updated translations
+* added links to the settings menu from the plugin page
+
+== 1.0.34 | 30th April 2024 ==
+* added match type HTTP_REFERER
+* security fix in mu-plugin
+* validation of mu-plugin against compile errors
+* default post added into the DB after the first activation
+
 == 1.0.33 | 29th April 2024 ==
 * bugfix missing variable in mu-plugin
 * added disabling filter when on plugin page to avoid automatic disabling of plugins
