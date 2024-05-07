@@ -1,0 +1,10 @@
+{
+    "version": "1.0.22",
+    "download_link": "https://raw.githubusercontent.com/WpSpeedDoctor/wpsd-plugins-update/main/php-debug/wpsd-php-debug.zip",
+    "requires": "5.9",
+    "tested": "6.5.2",
+    "requires_php": "7.4",
+    "last_updated": "2024-05-07",
+    "sections": {
+    }
+  }
