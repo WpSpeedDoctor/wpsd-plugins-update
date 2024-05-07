@@ -1,0 +1,84 @@
+== 1.0.22 | 7th May 2024 ==
+* bugfix metadata filename
+* added automatic update
+
+== 1.0.21.1 | 6th May 2024 ==
+* excluded keyword bugfix
+
+== 1.0.21 | 6th May 2024 ==
+* added excluded keyword
+
+== 1.0.20 | 1st May 2024 ==
+* bugfix PHP warning metadata file not found
+
+== 1.0.19 | 29th April 2024 ==
+* bugfix metadata filepath
+
+== 1.0.18 | 25th April 2024 ==
+* bugfix
+
+== 1.0.17 | 10th April 2024 ==
+* download JS script excluded from Cloudflare rocket loader
+
+== 1.0.16 | 28th March 2024 ==
+* bug fix - display fatal error message
+
+== 1.0.15 | 11th March 2024 ==
+* added refresh button
+
+== 1.0.14 | 29th February 2024 ==
+* settings menu
+
+== 1.0.13 | 25th February 2024 ==
+* refactored algorithm how main error log is read and metadata added
+* added timestap from REQUEST_TIME_FLOAT into metadata
+* displayed timestamp and daytime in UTC timezone
+
+== 1.0.12 | 25th February 2024 ==
+* added support for enviroments where is not allowed change of PHP settings via ini_set();
+
+== 1.0.11 | 24th February 2024 ==
+* export filtered error log with metadata
+
+== 1.0.10 | 23rd February 2024 ==
+* polish metagada displaying
+
+== 1.0.9 | 22nd February 2024 ==
+* refactored timestamps records based on error log filesize
+
+== 1.0.8 | 21st February 2024 ==
+* pagination fix
+* added dopdown per page
+
+== 1.0.7 | 18th February 2024 ==
+* display errors using HTMX
+* load metadata with pagination
+
+== 1.0.6 | 17th February 2024 ==
+* filtering by form input
+* added all error types to be searchable, to index and to menu
+
+== 1.0.5 | 16th February 2024 ==
+* added ajax handler
+* admin menu form with HTMX
+* removed HTTP_HOST from logfile
+* created index of logfile
+
+== 1.0.4 | 15th February 2024 ==
+* changed meta storage format from text to json
+* backwards reading log file
+* backwards reading metdata
+
+== 1.0.3 | 13th February 2024 ==
+* copied code from previous version
+* changed philosophy of storing extra data to store meta in a separate file
+* added timestamps to main and meta files
+* removed deprecated code
+
+== 1.0.2 | 12th February 2024 ==
+* copied code from previous version
+* mu-plugins reviewed
+* universal-functions reviewed
+
+== 1.0.0 | 31th January 2024 ==
+* Initial Version 1.0.0 Plugin Boilerplate basecode copied
