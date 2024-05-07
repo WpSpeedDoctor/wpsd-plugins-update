@@ -1,3 +1,6 @@
+== 1.0.36 | 7th May 2024 ==
+* bugfix mu-plugin validator occasional error
+
 == 1.0.35 | 1st may 2024 ==
 * added content of post_type 'adv_plugin_filter' into debug information field
 * added admin notice that mu-plugin could not be created
