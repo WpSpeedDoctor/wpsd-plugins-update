@@ -1,3 +1,7 @@
+== 1.0.41 | 23rd May 2024 ==
+* bugfix mu-plugin variable
+* added to debug data info about what filter allowed or disabled plugin on the current page 
+
 == 1.0.40 | 13th May 2024 ==
 * added logging into code validation
 * bugfix mu-plugin
