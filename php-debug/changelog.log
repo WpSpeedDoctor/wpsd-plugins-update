@@ -1,3 +1,16 @@
+== 1.0.26 | 28th May 2024 ==
+* bugfix HTMX URI
+* CSS moved to the external file
+* design changes in pagination
+* added warning icon when default filename contains `null`
+
+== 1.0.25 | 21st May 2024 ==
+* changed HTMX handle
+* updated HTMX to the latest version
+
+== 1.0.24 | 14th May 2024 ==
+* bugfix filesize warning when log file doesn't exist
+
 == 1.0.23 | 14th May 2024 ==
 * error reporting excludes errors from settings
 * added a toggle to display debug values only when a cookie is set
