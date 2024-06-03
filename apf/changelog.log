@@ -1,3 +1,10 @@
+== 1.0.42 | 3rd June 2024 ==
+* activation and validation of the mu-plugin refactored some parts
+* mu-plugin template code optimization
+* debug information enhanced
+* added support for multilingual plugins
+* theme disabling improved
+
 == 1.0.41 | 23rd May 2024 ==
 * bugfix mu-plugin variable
 * added to debug data info about what filter allowed or disabled plugin on the current page 
