@@ -1,3 +1,7 @@
+== 1.0.43 | 6th June 2024 ==
+* disabling theme bugfix
+* updated translations
+
 == 1.0.42 | 3rd June 2024 ==
 * activation and validation of the mu-plugin refactored some parts
 * mu-plugin template code optimization
