@@ -1,3 +1,11 @@
+== 1.0.27 | 07th June 2024 ==
+* design change on the settings page
+* cookie for displaying values is automatically set after login on localhost
+* code polish of debugging functions
+* code polish of Ajax handler
+* added stopwatch stw() function
+* added weakly cleanup of old error logs
+
 == 1.0.26 | 28th May 2024 ==
 * bugfix HTMX URI
 * CSS moved to the external file
@@ -34,7 +42,7 @@
 * bugfix PHP warning metadata file not found
 
 == 1.0.19 | 29th April 2024 ==
-* bugfix metadata filepath
+* bugfix metadata file path
 
 == 1.0.18 | 25th April 2024 ==
 * bugfix
@@ -63,10 +71,10 @@
 * export filtered error log with metadata
 
 == 1.0.10 | 23rd February 2024 ==
-* polish metagada displaying
+* polish metadada displaying
 
 == 1.0.9 | 22nd February 2024 ==
-* refactored timestamps records based on error log filesize
+* refactored timestamps records based on error log file size
 
 == 1.0.8 | 21st February 2024 ==
 * pagination fix
@@ -78,7 +86,7 @@
 
 == 1.0.6 | 17th February 2024 ==
 * filtering by form input
-* added all error types to be searchable, to index and to the menu
+* added all error types to be searchable, to index and the menu
 
 == 1.0.5 | 16th February 2024 ==
 * added AJAX handler
@@ -87,9 +95,9 @@
 * created index of logfile
 
 == 1.0.4 | 15th February 2024 ==
-* changed meta storage format from text to json
+* changed meta storage format from text to JSON
 * backwards reading log file
-* backwards reading metdata
+* backwards reading metadata
 
 == 1.0.3 | 13th February 2024 ==
 * copied code from the previous version
