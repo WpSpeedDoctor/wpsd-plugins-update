@@ -1,10 +1,20 @@
+== 1.0.34 | 21th June 2024 ==
+* refactored HTTP_HOST source
+* save setting server load max value increased
+* sitemap is updated only when related settings have been changed
+* refactored HTML code in stats section
+* added time of run and server load into stats section
+
+== 1.0.33 | 24th April 2024 ==
+* code polish, removed deprecated constant
+
 == 1.0.32 | 23th April 2024 ==
 * Sitemap fetch refactored, displays stats in the Settings menu
 
 == 1.0.31 | 22th April 2024 ==
 * sitemap update button bugfix
 * statistics algorithm updated. Before min, max, avg was calculated from HTTP response 200, now from all
-* when fetching sitemap no delay between requests
+* when fetching sitemap, there is no delay between requests
 * statistics menu tweaks
 * after saving settings the sitemap is automatically updated by AJAX
 * added sitemap TTL into the settings menu, default 2 hours
@@ -12,7 +22,7 @@
 == 1.0.30 | 22th April 2024 ==
 * sitemap TTL refactored, transient is used now
 * added to statistics summary Avg no-hit TTFB
-* added to settings menu sitemap update button and display URL counts. 
+* added to the settings menu the sitemap update button and displayed URL counts. 
 
 == 1.0.29.2 | 20th April 2024 ==
 * sitemap generation added homepage on the top
@@ -21,8 +31,8 @@
 * stitemap TTL bug fix
 
 == 1.0.29 | 19th April 2024 ==
-* sitmap has TTL 120 minutes for refreshing, purged on save settings
-* small bugs fixes
+* sitemap has TTL 120 minutes for refreshing, purged on save settings
+* small bug fixes
 * not paused at all after cache made hit on all crawled threads
 
 == 1.0.28 | 15th April 2024 ==
