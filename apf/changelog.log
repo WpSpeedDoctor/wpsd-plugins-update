@@ -1,3 +1,6 @@
+== 1.0.44.1 | 25th June 2024 ==
+* bugfix dropdown menu wasn't empty for the second condition
+
 == 1.0.44 | 25th June 2024 ==
 * bugfix $qs undefined in mu-plugin - missing dependency
 * code polish apf metabox
