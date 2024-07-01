@@ -1,3 +1,14 @@
+== 1.0.31 | 1st July 2024 ==
+* bugfix in ajax handler
+* metadata recording disabled for excluded error types
+* excluded error types storage refactored
+* detection of allowed changing PHP errors filepath moved to activation and settings
+* small design change to the settings page
+* fallback/automatic settings update to adjust to new settings structure
+* added useful info to the settings page
+* added wpsd_dd() to set cookies for displaying PHP errors and debug values
+* enforcing error reporting after the `plugins_loaded` hook
+
 == 1.0.30 | 14th June 2024 ==
 * bugfix displaying deb()
 * bugfix time measure tm()
