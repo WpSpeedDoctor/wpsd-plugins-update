@@ -1,5 +1,8 @@
+== 1.0.32 | 2nd July 2024 ==
+* settings update bugfix
+
 == 1.0.31 | 1st July 2024 ==
-* bugfix in ajax handler
+* bugfix in Ajax handler
 * metadata recording disabled for excluded error types
 * excluded error types storage refactored
 * detection of allowed changing PHP errors filepath moved to activation and settings
