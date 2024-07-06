@@ -1,10 +1,10 @@
 {
-  "version": "1.0.44.1",
+  "version": "1.0.45",
   "download_link": "https://raw.githubusercontent.com/WpSpeedDoctor/wpsd-plugins-update/main/apf/wpsd-advanced-plugin-filter.zip",
   "requires": "5.9",
   "tested": "6.5.5",
   "requires_php": "7.4",
-  "last_updated": "2024-06-27",
+  "last_updated": "2024-07-06",
   "sections": {
   }
 }
