@@ -1,0 +1,10 @@
+{
+  "version": "1.0.1",
+  "download_link": "https://raw.githubusercontent.com/WpSpeedDoctor/wpsd-plugins-update/main/cron-opcache-purge/wpsd-cron-purge-opcache.zip",
+  "requires": "5.9",
+  "tested": "6.5.5",
+  "requires_php": "7.0",
+  "last_updated": "2024-07-10",
+  "sections": {
+  }
+}
