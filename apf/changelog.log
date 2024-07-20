@@ -1,3 +1,7 @@
+== 1.0.46 | 20th of July 2024 ==
+* added match type HTTP HOST and locale
+* updated translations
+
 == 1.0.45 | 6th of July 2024 ==
 * bugfix preventing re-creation of mu-plugin when filters are off in the settings
 
