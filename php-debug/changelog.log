@@ -1,3 +1,17 @@
+== 1.1.0 | 27nd - 30th July 2024 ==
+* refactored the storage of PHP errors and metadata to SQLite database
+* polish displaying an error message and metadata
+* refactored download Log logic to adjust to the new $event_data structure
+* refactored regex search because SQLite doesn't support it.
+* cleanup updated, removing legacy meta files and old records
+* uninstall updated, removing SQLite files and meta.log files upon uninstall
+* prevent PHP error when SQLite extension is not supported
+* added database errors to the log
+* added debug function debl()
+* added delete functionality
+* small design update to pagination and settings
+* FAQ & DOCs updated
+
 == 1.0.32 | 2nd July 2024 ==
 * settings update bugfix
 
