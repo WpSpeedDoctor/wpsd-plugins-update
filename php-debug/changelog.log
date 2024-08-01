@@ -1,3 +1,10 @@
+== 1.1.1 | 01st August 2024 ==
+* bugfix fatal error when mu-plugin deleted and plugin not deactivated
+* bugfix displaying metadata, error code and name missing
+* refactored saving deb() into one option cell rather than a transient
+* refactored saving deb() first into memory and on shutdown to DB
+* added email to report fatal errors into settings ( under construction )
+
 == 1.1.0 | 27nd - 30th July 2024 ==
 * refactored the storage of PHP errors and metadata to SQLite database
 * polish displaying an error message and metadata
