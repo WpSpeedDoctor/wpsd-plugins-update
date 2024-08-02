@@ -1,8 +1,8 @@
-== 1.1.2 | 02nd August 2024 ==
+== 1.1.2 | 2nd August 2024 ==
 * disable menus and display messages when the SQLite version is too low
 * bugfix for dir constant
 
-== 1.1.1 | 01st August 2024 ==
+== 1.1.1 | 1st August 2024 ==
 * bugfix fatal error when mu-plugin deleted and plugin not deactivated
 * bugfix displaying metadata, error code and name missing
 * refactored saving deb() into one option cell rather than a transient
@@ -49,7 +49,7 @@
 * added displaying display value cookies in the settings menu
 * refactored timestamp
 
-== 1.0.27 | 07th June 2024 ==
+== 1.0.27 | 7th June 2024 ==
 * design change on the settings page
 * cookie for displaying values is automatically set after login on localhost
 * code polish of debugging functions
