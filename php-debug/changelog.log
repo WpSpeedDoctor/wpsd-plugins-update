@@ -1,3 +1,7 @@
+== 1.1.2 | 02nd August 2024 ==
+* disable menus and display messages when the SQLite version is too low
+* bugfix for dir constant
+
 == 1.1.1 | 01st August 2024 ==
 * bugfix fatal error when mu-plugin deleted and plugin not deactivated
 * bugfix displaying metadata, error code and name missing
