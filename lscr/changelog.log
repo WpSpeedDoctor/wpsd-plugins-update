@@ -1,9 +1,15 @@
+== 1.0.36 | 05th August 2024 ==
+* bugfix creating duplicate URLs in the sitemap table
+
+== 1.0.35 | 27th June 2024 ==
+* server load rounding
+
 == 1.0.34 | 21th June 2024 ==
 * refactored HTTP_HOST source
 * save setting server load max value increased
 * sitemap is updated only when related settings have been changed
-* refactored HTML code in stats section
-* added time of run and server load into stats section
+* refactored HTML code in the stats section
+* added time of run and server load into the stats section
 
 == 1.0.33 | 24th April 2024 ==
 * code polish, removed deprecated constant
@@ -13,7 +19,7 @@
 
 == 1.0.31 | 22th April 2024 ==
 * sitemap update button bugfix
-* statistics algorithm updated. Before min, max, avg was calculated from HTTP response 200, now from all
+* statistics algorithm updated. Before min, max and avg were calculated from HTTP response 200, now from all
 * when fetching sitemap, there is no delay between requests
 * statistics menu tweaks
 * after saving settings the sitemap is automatically updated by AJAX
