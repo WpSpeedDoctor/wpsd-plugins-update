@@ -1,3 +1,11 @@
+== 1.1.5 | 6nd August 2024 ==
+* added select for the database file
+* added a toggle to display metadata
+* error message when debl() data is displayed it's escaped by htmlentities()
+* error message of PHP has HTML tags removed
+* home page design tweaked
+* FAQ and Documentation page updated
+
 == 1.1.4 | 5nd August 2024 ==
 * bugfix, added conversion of deprecated settings
 
