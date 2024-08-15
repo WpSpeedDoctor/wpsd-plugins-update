@@ -1,3 +1,13 @@
+== 1.1.9 | 15nd August 2024 ==
+* bugfix for preparing SQLite search keyword
+* disable Query Monitor error reporting to avoid error data lose
+
+== 1.1.8 | 8nd August 2024 ==
+* bugfix writing multiple errors at the same time, increased retried, added retries to metadata writes
+
+== 1.1.7 | 7nd August 2024 ==
+* bugfix writing multiple errors at the same time, added 5 reties
+
 == 1.1.6 | 6nd August 2024 ==
 * bugfix writing multiple errors at the same time
 * bugfix deleting data from chosen databases file
