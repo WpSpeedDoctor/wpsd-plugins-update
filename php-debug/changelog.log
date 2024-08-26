@@ -1,3 +1,6 @@
+== 1.1.10 | 16th August 2024 ==
+* integrity check of SQLite database
+
 == 1.1.9 | 15nd August 2024 ==
 * bugfix for preparing SQLite search keyword
 * disable Query Monitor error reporting to avoid error data lose
