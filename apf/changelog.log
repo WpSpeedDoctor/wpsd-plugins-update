@@ -1,3 +1,8 @@
+== 1.0.47 | 08th of September 2024 ==
+* added constants WP_REQUEST_TYPE and WPSD_URI_PATH
+* refactored mu-plugin for using new constants
+* review codebase for submitting into the WP repository
+
 == 1.0.46 | 20th of July 2024 ==
 * added match type HTTP HOST and locale
 * updated translations
@@ -78,26 +83,26 @@
 * mu-plugin refresh after automatic update
 
 == 1.0.29 | 8th April 2024 ==
-* Added automatic update via github
+* Added automatic update via GitHub
 
 == 1.0.28 | 7th April 2024 ==
-* mu plugin constructor bug fix
+* mu-plugin constructor bug fix
 * code polish and optimization
 
 == 1.0.27 | 2nd April 2024 ==
 * added dropdown and option for OR
 * CSS tweaks
 * Added APF plugin version into filter data
-* support for persistant object cache like Redis when post type is queried
+* support for persistent object cache like Redis when post type is queried
 
 == 1.0.26 | 1st April 2024 ==
-* Mode dopdown refactored
+* Mode dropdown refactored
 * code polishing and localization code check
 * added mode to suggest title
 
 == 1.0.25 | 31st March 2024 ==
 * escaped translated strings
-* mu-plugin construction bug fix, not selected any plugins or theme
+* mu-plugin construction bugfix when not selected any plugins or theme
 
 == 1.0.24 | 30th March 2024 ==
 * optimised mu-plugin
@@ -108,7 +113,7 @@
 
 
 == 1.0.23 | 28th March 2024 ==
-* optimised mu-plugin with static variable
+* optimised mu-plugin with the static variable
 
 == 1.0.22 | 28th March 2024 ==
 * added translation support
@@ -129,18 +134,18 @@
 
 == 1.0.18 | 17th March 2024 ==
 * added author into CPT column
-* refactored some parts of code to make it more readable
+* refactored some parts of the code to make it more readable
 
 == 1.0.17 | 14th March 2024 ==
 * added modes to CPT menu
-* added filter mode to mu plugin
-* mu plugin optimization
+* added filter mode to mu-plugin
+* mu-plugin optimization
 
 == 1.0.16 | 13th March 2024 ==
-* optimized mu-plugin, function moved to mu drop in file to and removed require
+* optimized mu-plugin, function moved to mu drop-in file to and removed require
 
 == 1.0.15 | 11th March 2024 ==
-* populated essential $_SERVER keys when run directly from PHP and not from webserver
+* populated essential $_SERVER keys when run directly from PHP and not from the webserver
 * refactored $uri_path
 * deprecated $query_string, used $_SERVER['QUERY_STRING'] instead
 * added operator not_start
@@ -162,7 +167,7 @@
 * mu-constructor bug fix
 
 == 1.0.11 | 5th January 2024 ==
-* bug fix regex delimiter
+* bugfix regex delimiter
 
 == 1.0.10 | 3rd January 2024 ==
 * DB data removal upon deletion
@@ -173,7 +178,7 @@
 * Added Filters Enabled setting
 * mu-plugin algorithm check
 * bugs fix
-* restrict require for CPT
+* restrict the require for CPT
 * Refresh mu-plugin after trashing post
 
 == 1.0.8 | 12th December 2023 ==
@@ -187,12 +192,12 @@
 * added translation
 * hide operators and values on certain match_type
 * added debug markup
-* remove cron bloat from boilerplate plugin
+* remove cron bloat from the boilerplate plugin
 
 == 1.0.5 | 26th November 2023 ==
-* whitelist RO plugin if any of rules matched
+* whitelist RO plugin if any of the rules matched
 * added logged and not logged user
-* in RO menu displaying corretly active and passive plugins
+* in RO menu displaying correctly active and passive plugins
 
 == 1.0.4 | 26th November 2023 ==
 * mu plugin construction
@@ -206,7 +211,6 @@
 * compiled all types into PHP
 * compiled logic
 * compiled creating common variables for all ifs 
-
 
 == 1.0.2 | 25th November 2023 ==
 * design CPT page
