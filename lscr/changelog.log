@@ -1,3 +1,7 @@
+== 1.0.37 | 09th September 2024 ==
+* improved crawler start
+* added CURL error code into the message about failure
+
 == 1.0.36 | 05th August 2024 ==
 * bugfix creating duplicate URLs in the sitemap table
 
@@ -37,7 +41,7 @@
 * stitemap TTL bug fix
 
 == 1.0.29 | 19th April 2024 ==
-* sitemap has TTL 120 minutes for refreshing, purged on save settings
+* the sitemap has TTL 120 minutes for refreshing, purged on save settings
 * small bug fixes
 * not paused at all after cache made hit on all crawled threads
 
