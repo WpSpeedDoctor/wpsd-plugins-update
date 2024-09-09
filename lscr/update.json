@@ -1,5 +1,5 @@
 {
-  "version": "1.0.36",
+  "version": "1.0.37",
   "download_link": "https://raw.githubusercontent.com/WpSpeedDoctor/wpsd-plugins-update/main/lscr/litespeed-crawler.zip",
   "requires": "5.9",
   "tested": "6.6.1",
