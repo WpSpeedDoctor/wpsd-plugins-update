@@ -1,7 +1,9 @@
-== 1.0.47 | 08th of September 2024 ==
+== 1.0.47 | 8th, 12th,13th,14th,16th of September 2024 ==
 * added constants WP_REQUEST_TYPE and WPSD_URI_PATH
 * refactored mu-plugin for using new constants
 * review codebase for submitting into the WP repository
+* object cache groups added
+* bugfix, update the mu drop-in after the automatic plugin update 
 
 == 1.0.46 | 20th of July 2024 ==
 * added match type HTTP HOST and locale
