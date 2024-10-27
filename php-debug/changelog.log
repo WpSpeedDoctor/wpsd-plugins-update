@@ -1,3 +1,15 @@
+== 1.1.12 | 27th October 2024 ==
+* improved displaying in vd(); function
+* bugfix when sqlite3 extension is not available
+* allowed to run on a lower version of SQLite3 and displayed notice of possible unexpected behaviour
+* refactored date selector
+* refactored HTML markup of email report
+* report can be sent to multiple recipients
+* updated docs
+
+== 1.1.11 | 26th August 2024 ==
+* bugfix for bcsub() number formatting
+
 == 1.1.10 | 16th August 2024 ==
 * integrity check of SQLite database
 
