@@ -1,3 +1,6 @@
+== 1.1.13 | 3rd November 2024 ==
+* added SQLite write lock to avoid unwritten data
+
 == 1.1.12 | 27th October 2024 ==
 * improved displaying in vd(); function
 * bugfix when sqlite3 extension is not available
