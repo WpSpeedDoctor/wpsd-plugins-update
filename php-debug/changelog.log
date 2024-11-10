@@ -1,3 +1,6 @@
+== 1.1.14 | 10th November 2024 ==
+* fix email template, not displaying as HTML
+
 == 1.1.13 | 3rd November 2024 ==
 * added SQLite write lock to avoid unwritten data
 
