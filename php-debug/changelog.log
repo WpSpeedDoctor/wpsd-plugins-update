@@ -1,3 +1,10 @@
+== 1.1.15 | 11th November 2024 ==
+* added menu "Error log" to read directly the PHP error log file
+* added "Load more" button into the new page instead of pagination
+* added fail-proof for scenario when `error_log` setting change is not allowed
+* refactored SQLite query for backwards compatibility
+* bugfix option allowed change of PHP setting unreliable value 
+
 == 1.1.14 | 10th November 2024 ==
 * fix email template, not displaying as HTML
 
