@@ -1,3 +1,32 @@
+== 1.1.19 | 22th January 2025 ==
+* meta_id bugfix
+* SQLite uses MEMORY pragma for exclusive writing into DB
+
+== 1.1.18.1 | 30th November - 03nd December 2024 ==
+* a constant changed in Ajax controller to avoid possible conflict
+
+== 1.1.18 | 30th November - 03nd December 2024 ==
+* refactor algorithm dealing with DB lock
+* added fragments storage when DB is locked
+* added identifier into deb arguments
+* added time measurements for SQLite queries
+* added settings "Async save errors"
+* added cron recording fragments into DB.
+* added cleanup of fragments
+* refactored deb() function to store debug info in a file and static variable.
+* refactored files dropdown in "Error log" tab, the default is sorted by IP or multisite sorted by site
+
+== 1.1.17 | 11th-17th November 2024 ==
+* refactoring search query ensuring reliable results and fast response.
+* added fallback for bcsub function if PHP extension is not available
+
+== 1.1.16 | 11th-15th November 2024 ==
+* added memory table for SQLite DB lock and debug values
+* added support for WP Multisite
+* improved updating settings when the new version is installed
+* improved uninstall cleanup
+* refactored search in SQLite, removed JOIN
+
 == 1.1.15 | 11th November 2024 ==
 * added menu "Error log" to read directly the PHP error log file
 * added "Load more" button into the new page instead of pagination
