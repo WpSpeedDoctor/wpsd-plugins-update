@@ -1,3 +1,6 @@
+== 1.1.20 | 22th January 2025 ==
+* bugfix missing constant
+
 == 1.1.19 | 22th January 2025 ==
 * meta_id bugfix
 * SQLite uses MEMORY pragma for exclusive writing into DB
