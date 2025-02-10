@@ -1,3 +1,18 @@
+== 1.1.23 | 10th February 2025 ==
+* removed DB lock check
+* refactored catch for DB errors and lock
+* added argument for tm() to return microseconds integer instead of the default string
+
+== 1.1.22 | 09th February 2025 ==
+* bugfix for bcsub() rare error converting float into scientific notion
+* refactored into class writing fragments into DB
+* updated PRAGMA when writing the error right away
+* update writing fragments before displaying queried data - added limit when prompt is not displayed
+* removed E_STRICT as it has been deprecated in PHP 8.4.1
+
+== 1.1.21 | 04th February 2025 ==
+* bugfix for SQLite PRAGMA when writing error
+
 == 1.1.20 | 22th January 2025 ==
 * bugfix missing constant
 
@@ -5,10 +20,10 @@
 * meta_id bugfix
 * SQLite uses MEMORY pragma for exclusive writing into DB
 
-== 1.1.18.1 | 30th November - 03nd December 2024 ==
-* a constant changed in Ajax controller to avoid possible conflict
+== 1.1.18.1 | 03rd December 2024 ==
+* a constant has changed in Ajax controller to avoid possible conflict
 
-== 1.1.18 | 30th November - 03nd December 2024 ==
+== 1.1.18 | 30th November - 03rd December 2024 ==
 * refactor algorithm dealing with DB lock
 * added fragments storage when DB is locked
 * added identifier into deb arguments
@@ -58,21 +73,21 @@
 == 1.1.10 | 16th August 2024 ==
 * integrity check of SQLite database
 
-== 1.1.9 | 15nd August 2024 ==
+== 1.1.9 | 15th August 2024 ==
 * bugfix for preparing SQLite search keyword
 * disable Query Monitor error reporting to avoid error data lose
 
-== 1.1.8 | 8nd August 2024 ==
+== 1.1.8 | 8th August 2024 ==
 * bugfix writing multiple errors at the same time, increased retried, added retries to metadata writes
 
-== 1.1.7 | 7nd August 2024 ==
+== 1.1.7 | 7th August 2024 ==
 * bugfix writing multiple errors at the same time, added 5 reties
 
-== 1.1.6 | 6nd August 2024 ==
+== 1.1.6 | 6th August 2024 ==
 * bugfix writing multiple errors at the same time
 * bugfix deleting data from chosen databases file
 
-== 1.1.5 | 6nd August 2024 ==
+== 1.1.5 | 6th August 2024 ==
 * added select for the database file
 * added a toggle to display metadata
 * error message when debl() data is displayed it's escaped by htmlentities()
@@ -80,10 +95,10 @@
 * home page design tweaked
 * FAQ and Documentation page updated
 
-== 1.1.4 | 5nd August 2024 ==
+== 1.1.4 | 5th August 2024 ==
 * bugfix, added conversion of deprecated settings
 
-== 1.1.3 | 4nd August 2024 ==
+== 1.1.3 | 4th August 2024 ==
 * added error-proof for creating the database and writing into it
 * added in the settings page the information about the SQLite version and database file path
 * added sending an email with the PHP fatal error alert
@@ -99,7 +114,7 @@
 * refactored saving deb() first into memory and on shutdown to DB
 * added email to report fatal errors into settings ( under construction )
 
-== 1.1.0 | 27nd - 30th July 2024 ==
+== 1.1.0 | 27th - 30th July 2024 ==
 * refactored the storage of PHP errors and metadata to SQLite database
 * polish displaying an error message and metadata
 * refactored download Log logic to adjust to the new $event_data structure
