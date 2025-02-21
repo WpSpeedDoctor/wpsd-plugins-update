@@ -1,3 +1,6 @@
+== 1.1.24 | 21th February 2025 ==
+* improved exception handling for SQLite
+
 == 1.1.23 | 10th February 2025 ==
 * removed DB lock check
 * refactored catch for DB errors and lock
