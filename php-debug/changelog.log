@@ -1,3 +1,7 @@
+== 1.25 | 21th February 2025 ==
+* fatal error bugfix when deleted mu-plugin thrown fatal error
+* changed version number
+
 == 1.1.24 | 21th February 2025 ==
 * improved exception handling for SQLite
 
