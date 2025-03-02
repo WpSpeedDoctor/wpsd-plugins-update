@@ -1,5 +1,5 @@
 {
-  "version": "1.12",
+  "version": "1.12.0",
   "download_link": "https://raw.githubusercontent.com/WpSpeedDoctor/wpsd-plugins-update/main/wpsd-slider/wpsd-slider.zip",
   "requires": "5.9",
   "tested": "6.7.2",
