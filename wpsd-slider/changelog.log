@@ -1,0 +1,55 @@
+== 1.12 | 2nd March 2025 ==
+* changed version numering
+* code polish
+* added labels to slide filds in admin menu
+* added automatic update via Github
+
+== 1.0.11 | 29th January 2025 ==
+* changed data storage from post_content to postmeta
+
+== 1.0.10 | 29th January 2025 ==
+* admin UI tweaks
+
+== 1.0.9 | 27th-28th January 2025 ==
+* added caching of markup
+* shortcode format enhanced
+* polish code
+* changed minimum PHP version 8.0
+* added filters
+* added field for slider specific CSS
+
+== 1.0.8 | 17th January 2025 ==
+* slide markup update
+
+== 1.0.7 | 15th January 2025 ==
+* added link and CTA markup
+
+== 1.0.6 | 9th January 2025 ==
+* breakpoints, form, autofill template
+
+== 1.0.5 | 8th January 2025 ==
+* tab in metabox
+* breakpoint settings
+
+== 1.0.4 | 7th January 2025 ==
+* Refactored rendering slider, code moved into class
+
+== 1.0.3 | 6th January 2025 ==
+* sync settings, form, shortcode
+
+== 1.0.2 | 29th,30th,31st,1st December 2024/January 2025 ==
+* slider CPT
+* templates & autofill the form
+* save into post_content
+* all Splide settings available
+
+
+== 1.0.1 | 28th December 2024 ==
+* added metabox in admin
+* save data structure refactored
+
+* Initial Version
+== 1.0.0 | 27th December 2024 ==
+* Initial Version
+* core files
+* shortcode
