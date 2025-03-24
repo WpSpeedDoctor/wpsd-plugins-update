@@ -1,3 +1,14 @@
+== 1.26 | 21st, 22nd, 23rd,24th March 2025 ==
+* moved info from settings to new tab "Info"
+* added into "Info" $_SERVER, OPcache stats, the server load and stats of PHP required files. 
+* changed cookies' names and the nonce value
+* added integrity check of SQLite DB and recovery when broken
+* added request constants
+* moved debug functions into namespaced PHP file
+* added WP Admin bar menu with shortcuts to the plugin menu and displayed first 20 PHP error messages
+* refactored setting cookies and when displaying is active
+* deleted cookies after logout
+
 == 1.25 | 21th February 2025 ==
 * fatal error bugfix when deleted mu-plugin thrown fatal error
 * changed version number
