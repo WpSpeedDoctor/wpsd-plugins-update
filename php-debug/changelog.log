@@ -1,3 +1,19 @@
+== 1.29 | 10th May 2025 ==
+* bugfix errors in the storage function
+* bugfix display metadata on first load when toggle is on
+* bugfix possible PHP fatal error when disabled SQLite3 extension
+* bugfix not updated correctly plugin settings when version migration
+* tweak displaying PHP errors
+* tweak reporting email, the subject has the host, and the body has the last fatal PHP error message 
+
+== 1.28 | 16th April 2025 ==
+* bugfix storing error data refactored function
+
+== 1.27 | 21st, 22nd, 23rd,24th March 2025 ==
+* moved SQLite files into WP_CONTENT_DIR.'/database/wpsd-debug/' to follow the official WP SQLite folder for SQLite database
+* simplified option names
+* refactored the new version migration process and setting up the default settings. 
+
 == 1.26 | 21st, 22nd, 23rd,24th March 2025 ==
 * moved info from settings to new tab "Info"
 * added into "Info" $_SERVER, OPcache stats, the server load and stats of PHP required files. 
@@ -5,7 +21,7 @@
 * added integrity check of SQLite DB and recovery when broken
 * added request constants
 * moved debug functions into namespaced PHP file
-* added WP Admin bar menu with shortcuts to the plugin menu and displayed first 20 PHP error messages
+* added WP Admin bar menu with shortcuts to the plugin menu and displayed the first 20 PHP error messages
 * refactored setting cookies and when displaying is active
 * deleted cookies after logout
 
