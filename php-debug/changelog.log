@@ -1,8 +1,12 @@
+== 1.29.1 | 15th May 2025 ==
+* bugfix fatal error on cron
+* updated WPSD_REQUEST_TYPE algorithm
+
 == 1.29 | 10th May 2025 ==
 * bugfix errors in the storage function
-* bugfix display metadata on first load when toggle is on
+* bugfix display metadata on first load when the toggle is on
 * bugfix possible PHP fatal error when disabled SQLite3 extension
-* bugfix not updated correctly plugin settings when version migration
+* bugfix plugin's settings not updated correctly when version migration
 * tweak displaying PHP errors
 * tweak reporting email, the subject has the host, and the body has the last fatal PHP error message 
 
