@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "download_link": "https://raw.githubusercontent.com/WpSpeedDoctor/wpsd-plugins-update/main/placeholder.zip",
+  "download_link": "https://github.com/WpSpeedDoctor/wpsd-plugins-update/raw/refs/heads/main/ls-css-helper/wpsd-ls-css-helper.zip",
   "requires": "5.9",
   "tested": "6.8.1",
   "requires_php": "7.0",
