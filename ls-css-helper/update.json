@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "download_link": "https://raw.githubusercontent.com/WpSpeedDoctor/wpsd-plugins-update/main/placeholder.zip",
+  "requires": "5.9",
+  "tested": "6.8.1",
+  "requires_php": "7.0",
+  "last_updated": "2025-05-23",
+  "sections": {
+  }
+}
