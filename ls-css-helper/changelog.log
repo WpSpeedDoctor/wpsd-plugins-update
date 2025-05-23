@@ -1,0 +1,28 @@
+== 1.0 | 23nd May 2025 ==
+* added LS vary hook for CCSS categories
+* automatic update via Github
+
+== 0.5 | 22nd May 2025 ==
+* testing, bugfixes
+
+== 0.4 | 16th - 21st May 2025 ==
+* remove hash, body class and stored options
+* added storing new selectors directly to Litespeed settings
+
+== 0.3 | 16th May 2025 ==
+* code polish and refactoring structure
+* option field change
+* admin settings menu
+* setting activation cookies
+
+== 0.2 | 16th May 2025 ==
+* hash uses for storage
+* removed queue
+* CCSS / UCSS mode
+
+== 0.1 | 14th May 2025 ==
+* plugin setup
+* DOM reduction for CCSS
+* store newly discovered selectors
+* send unique via AJAX
+* using body classes hash as grouping indicator
