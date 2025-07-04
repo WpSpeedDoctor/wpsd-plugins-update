@@ -1,12 +1,18 @@
+== 1.31 | 26th May 2025 ==
+* bugfix admin bar menu displaying errors
+
+== 1.30 | 19th May 2025 ==
+* The debug data file is related to the server IP
+
 == 1.29.1 | 15th May 2025 ==
 * bugfix fatal error on cron
 * updated WPSD_REQUEST_TYPE algorithm
 
 == 1.29 | 10th May 2025 ==
 * bugfix errors in the storage function
-* bugfix display metadata on first load when the toggle is on
+* bugfix display metadata on the first load when the toggle is on
 * bugfix possible PHP fatal error when disabled SQLite3 extension
-* bugfix plugin's settings not updated correctly when version migration
+* bugfix plugin's settings are not updated correctly when version migration
 * tweak displaying PHP errors
 * tweak reporting email, the subject has the host, and the body has the last fatal PHP error message 
 
@@ -59,21 +65,21 @@
 * SQLite uses MEMORY pragma for exclusive writing into DB
 
 == 1.1.18.1 | 03rd December 2024 ==
-* a constant has changed in Ajax controller to avoid possible conflict
+* A constant has changed in the Ajax controller to avoid a possible conflict
 
 == 1.1.18 | 30th November - 03rd December 2024 ==
-* refactor algorithm dealing with DB lock
+* refactored the algorithm dealing with DB lock
 * added fragments storage when DB is locked
-* added identifier into deb arguments
+* added identifier into deb() arguments
 * added time measurements for SQLite queries
 * added settings "Async save errors"
 * added cron recording fragments into DB.
 * added cleanup of fragments
-* refactored deb() function to store debug info in a file and static variable.
+* refactored deb() function to store debug info in a file and a static variable.
 * refactored files dropdown in "Error log" tab, the default is sorted by IP or multisite sorted by site
 
 == 1.1.17 | 11th-17th November 2024 ==
-* refactoring search query ensuring reliable results and fast response.
+* refactored search query, ensuring reliable results and fast response.
 * added fallback for bcsub function if PHP extension is not available
 
 == 1.1.16 | 11th-15th November 2024 ==
@@ -91,7 +97,7 @@
 * bugfix option allowed change of PHP setting unreliable value 
 
 == 1.1.14 | 10th November 2024 ==
-* fix email template, not displaying as HTML
+* bugfix email template, not displaying as HTML
 
 == 1.1.13 | 3rd November 2024 ==
 * added SQLite write lock to avoid unwritten data
@@ -99,7 +105,7 @@
 == 1.1.12 | 27th October 2024 ==
 * improved displaying in vd(); function
 * bugfix when sqlite3 extension is not available
-* allowed to run on a lower version of SQLite3 and displayed notice of possible unexpected behaviour
+* allowed to run on a lower version of SQLite3 and displayed a notice of possible unexpected behaviour
 * refactored date selector
 * refactored HTML markup of email report
 * report can be sent to multiple recipients
@@ -109,27 +115,27 @@
 * bugfix for bcsub() number formatting
 
 == 1.1.10 | 16th August 2024 ==
-* integrity check of SQLite database
+* added integrity check of SQLite database
 
 == 1.1.9 | 15th August 2024 ==
 * bugfix for preparing SQLite search keyword
-* disable Query Monitor error reporting to avoid error data lose
+* disable Query Monitor error reporting to avoid the error message data miss
 
 == 1.1.8 | 8th August 2024 ==
-* bugfix writing multiple errors at the same time, increased retried, added retries to metadata writes
+* bugfix writing multiple errors at the same time, increased retries, added retries to metadata writes
 
 == 1.1.7 | 7th August 2024 ==
-* bugfix writing multiple errors at the same time, added 5 reties
+* bugfix writing multiple errors at the same time, added 5 retries
 
 == 1.1.6 | 6th August 2024 ==
 * bugfix writing multiple errors at the same time
-* bugfix deleting data from chosen databases file
+* bugfix deleting data from the chosen databases file
 
 == 1.1.5 | 6th August 2024 ==
 * added select for the database file
 * added a toggle to display metadata
 * error message when debl() data is displayed it's escaped by htmlentities()
-* error message of PHP has HTML tags removed
+* the error message of PHP has HTML tags removed
 * home page design tweaked
 * FAQ and Documentation page updated
 
@@ -142,7 +148,7 @@
 * added sending an email with the PHP fatal error alert
 
 == 1.1.2 | 2nd August 2024 ==
-* disable menus and display messages when the SQLite version is too low
+* disabled menus and display messages when the SQLite version is too low
 * bugfix for dir constant
 
 == 1.1.1 | 1st August 2024 ==
@@ -214,7 +220,7 @@
 * bugfix filesize warning when log file doesn't exist
 
 == 1.0.23 | 14th May 2024 ==
-* error reporting excludes errors from settings
+* the error reporting excludes errors from settings
 * added a toggle to display debug values only when a cookie is set
 * clean up upon uninstall, remove settings and meta files
 
