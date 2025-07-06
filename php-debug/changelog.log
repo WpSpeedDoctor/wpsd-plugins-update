@@ -1,5 +1,6 @@
-== 1.31 | 26th May 2025 ==
-* bugfix admin bar menu displaying errors
+== 1.32 | 6th July 2025 ==
+* bugfix script printed in other than admin/FE request type
+* moved cron function into private file
 
 == 1.30 | 19th May 2025 ==
 * The debug data file is related to the server IP
