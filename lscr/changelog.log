@@ -1,3 +1,12 @@
+== 1.0.40 | 27th August 2025 ==
+* PHP 8.4 and WP 6.8.2 compatibility check
+
+== 1.0.39 | 2nd April 2025 ==
+* header and body code refactored
+
+== 1.0.38 | 30th September 2024 ==
+* added regex into excluded keywords
+
 == 1.0.37 | 09th September 2024 ==
 * improved crawler start
 * added CURL error code into the message about failure
@@ -11,7 +20,7 @@
 == 1.0.34 | 21th June 2024 ==
 * refactored HTTP_HOST source
 * save setting server load max value increased
-* sitemap is updated only when related settings have been changed
+* the sitemap is updated only when related settings have been changed
 * refactored HTML code in the stats section
 * added time of run and server load into the stats section
 
@@ -62,3 +71,4 @@
 
 == 1.0.25 | 10th April 2024 ==
 * bugfix compatibility 7.4
+
