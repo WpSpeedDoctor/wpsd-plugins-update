@@ -1,3 +1,6 @@
+== 1.0.40.1 | 28th August 2025 ==
+* bugfix sitemap URLs having a trailing slash when not needed
+
 == 1.0.40 | 27th August 2025 ==
 * PHP 8.4 and WP 6.8.2 compatibility check
 
@@ -71,4 +74,5 @@
 
 == 1.0.25 | 10th April 2024 ==
 * bugfix compatibility 7.4
+
 
