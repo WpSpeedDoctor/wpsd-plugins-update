@@ -1,11 +1,47 @@
+== 1.19 | 2nd September 2025 ==
+* bugfix deleting slider posts
+* code clean up, main file made leaner
+
+== 1.18 | 19th August 2025 ==
+* by default, Splide CSS is inlined with the first slider, added constant WPSD_SLIDER_SPLIDE_ENQUEUED to enqueue style
+
+== 1.17| 9th August 2025 ==
+* moved CPT for global request type
+* updated wpsd request type
+
+== 1.16 | 1st August 2025 ==
+* code refactor data validation
+* shortcode cache/generator/messages login refactored
+* added support for WP translations
+* added dark mode for the admin area when set as the preferred colour scheme
+
+== 1.15 | 05th July 2025 ==
+* added better validation of saved data
+* moved back to store serialised data in the postmeta field
+* Moved CSS to a separate tab
+
+== 1.14 | 01st July 2025 ==
+* changed the datatype of stored settings to JSON
+* small bugfixes
+* class Slide_Data to handle slide settings load/save
+
+== 1.13 | 26th June 2025 ==
+* added order change of slides
+* changed main slider <div> markup for class and id
+* admin slides split into two columns, removed <label>
+* added example of transient cache
+* added class `wpsd-slide-eager` for eager attribute image
+* changed HTML semantics for main element to <section>
+* bugfixes and legacy code removed
+
 == 1.12.1 | 3rd March 2025 ==
 * bugfix CTA link markup
 
 == 1.12 | 2nd March 2025 ==
-* changed version numering
+* changed version numbering
 * code polish
-* added labels to slide filds in admin menu
-* added automatic update via Github
+* added labels to slide fields in admin menu
+* added automatic update via GitHub
 
 == 1.0.11 | 29th January 2025 ==
 * changed data storage from post_content to postmeta
@@ -19,7 +55,7 @@
 * polish code
 * changed minimum PHP version 8.0
 * added filters
-* added field for slider specific CSS
+* added field for slider-specific CSS
 
 == 1.0.8 | 17th January 2025 ==
 * slide markup update
