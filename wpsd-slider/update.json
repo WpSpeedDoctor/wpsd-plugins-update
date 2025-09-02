@@ -1,10 +1,10 @@
 {
-  "version": "1.12.1",
+  "version": "1.19",
   "download_link": "https://raw.githubusercontent.com/WpSpeedDoctor/wpsd-plugins-update/main/wpsd-slider/wpsd-slider.zip",
   "requires": "5.9",
-  "tested": "6.7.2",
+  "tested": "6.8.2",
   "requires_php": "8.0",
-  "last_updated": "2025-03-03",
+  "last_updated": "2025-09-02",
   "sections": {
   }
 }
