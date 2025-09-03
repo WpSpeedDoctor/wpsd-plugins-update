@@ -1,3 +1,33 @@
+== 1.51 3rd of September 2025 ==
+* added dark mode CSS
+* release
+
+== 1.51 beta | 15th of August 2025 ==
+* refactored compound condition logic, added extra escaping for condition values
+* added `ends with` operator
+* added displaying `ifs conditions` and eval() test + warning 
+
+== 1.51 alfa4 | 13th of August 2025 ==
+* bugfix mu-plugin constructor
+* homepage detection code tweaked
+* bugfix wrong DB table looking for post type on multisite
+* added into debug information the status of the theme: disabled/allowed/unchanged
+
+== 1.51 alfa3 | 12th of August 2025 ==
+* refactored the construction of the PHP condition
+
+== 1.51 alfa2 | 11th of August 2025 ==
+* dropped 0 from the version
+* moved request type as the main matching pattern on its own
+
+== 1.0.51 alfa1 | 10th of August 2025 ==
+* added WPSD_REQUEST_TYPE code
+* implementing request type into the filter menu and filter logic
+* added checkboxes for request type instead of the matching option
+
+== 1.0.50 | 25th of December 2024 ==
+* bugfix debugging causing a fatal error when APF is disabled
+
 == 1.0.49 | 9th of December 2024 ==
 * bugfix for mu-plugin blackout prevention
 * updated translations
@@ -6,12 +36,12 @@
 * WP Multisite support added
 * activation and deactivation compatibility fixed for multisite
 * refactored plugin filtering to include site-wide plugins
-* code performance optimization and small bug fixes
+* code performance optimisation and small bug fixes
 
 == 1.0.47 | 8th, 12th,13th,14th,16th of September 2024 ==
 * added constants WP_REQUEST_TYPE and WPSD_URI_PATH
 * refactored mu-plugin for using new constants
-* review codebase for submitting into the WP repository
+* review the codebase for submission into the WP repository
 * object cache groups added
 * bugfix, update the mu drop-in after the automatic plugin update 
 
@@ -28,7 +58,7 @@
 == 1.0.44 | 25th June 2024 ==
 * bugfix $qs undefined in mu-plugin - missing dependency
 * code polish apf metabox
-* added alarm when there is unsaved data
+* added an alarm when there is unsaved data
 
 == 1.0.43 | 6th June 2024 ==
 * disabling theme bugfix
@@ -36,17 +66,17 @@
 
 == 1.0.42 | 3rd June 2024 ==
 * activation and validation of the mu-plugin refactored some parts
-* mu-plugin template code optimization
+* mu-plugin template code optimisation
 * debug information enhanced
 * added support for multilingual plugins
 * theme disabling improved
 
 == 1.0.41 | 23rd May 2024 ==
 * bugfix mu-plugin variable
-* added to debug data info about what filter allowed or disabled plugin on the current page 
+* added to debug data info about which filter allowed or disabled plugin on the current page 
 
 == 1.0.40 | 13th May 2024 ==
-* added logging into code validation
+* added logging to code validation
 * bugfix mu-plugin
 
 == 1.0.39.1 | 12th May 2024 ==
@@ -58,7 +88,7 @@
 
 == 1.0.37 | 8th May 2024 ==
 * refactored filters data storage in mu-plugin
-* added the list of executed plugins into the debug message
+* added the list of executed plugins to the debug message
 * bugfix mu-plugin validator occasional error
 
 == 1.0.36 | 7th May 2024 ==
@@ -99,28 +129,28 @@
 
 == 1.0.28 | 7th April 2024 ==
 * mu-plugin constructor bug fix
-* code polish and optimization
+* code polish and optimisation
 
 == 1.0.27 | 2nd April 2024 ==
 * added dropdown and option for OR
 * CSS tweaks
 * Added APF plugin version into filter data
-* support for persistent object cache like Redis when post type is queried
+* support for persistent object cache like Redis when a post type is queried
 
 == 1.0.26 | 1st April 2024 ==
 * Mode dropdown refactored
-* code polishing and localization code check
+* code polishing and localisation code check
 * added mode to suggest title
 
 == 1.0.25 | 31st March 2024 ==
 * escaped translated strings
-* mu-plugin construction bugfix when not selected any plugins or theme
+* mu-plugin construction bugfix when any plugins or theme been selected
 
 == 1.0.24 | 30th March 2024 ==
 * optimised mu-plugin
 * mu-plugin added variable dependencies
 * mu-plugin added addon_functions
-* mu-plugin improved logged in users detection
+* mu-plugin improved logged-in users detection
 * added admin_post_type match_type
 
 
@@ -142,22 +172,22 @@
 
 == 1.0.19 | 18th March 2024 ==
 * added request types ajax,cron and rest api
-* optimization of mu-plugin code, filtering disabled plugins
+* optimisation of mu-plugin code, filtering disabled plugins
 
 == 1.0.18 | 17th March 2024 ==
-* added author into CPT column
+* added author to CPT column
 * refactored some parts of the code to make it more readable
 
 == 1.0.17 | 14th March 2024 ==
 * added modes to CPT menu
 * added filter mode to mu-plugin
-* mu-plugin optimization
+* mu-plugin optimisation
 
 == 1.0.16 | 13th March 2024 ==
-* optimized mu-plugin, function moved to mu drop-in file to and removed require
+* optimised mu-plugin, function moved to mu drop-in file to and removed require
 
 == 1.0.15 | 11th March 2024 ==
-* populated essential $_SERVER keys when run directly from PHP and not from the webserver
+* populated essential $_SERVER keys when run directly from PHP and not from the web server
 * refactored $uri_path
 * deprecated $query_string, used $_SERVER['QUERY_STRING'] instead
 * added operator not_start
@@ -190,7 +220,7 @@
 * Added Filters Enabled setting
 * mu-plugin algorithm check
 * bugs fix
-* restrict the require for CPT
+* restrict the requirement for CPT
 * Refresh mu-plugin after trashing post
 
 == 1.0.8 | 12th December 2023 ==
@@ -209,14 +239,14 @@
 == 1.0.5 | 26th November 2023 ==
 * whitelist RO plugin if any of the rules matched
 * added logged and not logged user
-* in RO menu displaying correctly active and passive plugins
+* in RO menu, displaying correctly active and passive plugins
 
 == 1.0.4 | 26th November 2023 ==
 * mu plugin construction
 * remove bloat from boilerplate plugin
 * filter plugins and theme
 * removed universal functions and support for WP < 5.9 and PHP_VER < 7.4
-* CPT menu improvment, check checkboxes, spaces
+* CPT menu improvement, check checkboxes, spaces
 
 == 1.0.3 | 26th November 2023 ==
 * constructor development
@@ -236,3 +266,4 @@
 == 1.0.0 | 23rd November 2023 ==
 * Initial Version
 * CPT
+
