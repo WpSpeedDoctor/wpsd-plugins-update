@@ -1,3 +1,53 @@
+== 1.33 29th August 2025 ==
+* added `get_wpsd_plugin_included_files($slug)` function
+
+== 1.33 beta7  28th August 2025 ==
+* bugfix occasional db file without schema and tables.
+* added Info menu into WP admin bar menu
+* added OPcache enabled and PHP JIT info into Info menu
+* added automatic dark mode to plugin admin area
+
+== 1.33 beta6  27th August 2025 ==
+* added an error message when HTMX has an error or a timeout
+* bugfix email missing variable
+* moved legacy tm() into separate file
+* tm() now using hrtime(true) as input
+* updated docs
+
+== 1.33 beta5 26th August 2025 ==
+* deprecated async setting, write async when failed write into SQLite
+* moved all ajax nonce to Consts
+* removed compressing fragments
+
+== 1.33 beta4 24th August 2025 ==
+* fragments refactored
+
+== 1.33 beta3 22nd-23rd August 2025 ==
+* changed naming of sqlite db and fragments to start with '.ht.' to prevent download, works on Apache and Nginx (Thx Ollie Jones)
+* fixed migration from v 1.25 and 1.32
+* on uninstall, delete folder in /database/ and /database/ itself if only contains index.php
+
+== 1.33 beta2 21st August 2025 ==
+* changed plugin domain to wpsd-debug
+* code polish and cleanup
+
+== 1.33 beta1 | 4th-8th August 2025 ==
+* added `Consts` class for constants
+* moved cookies names, version and dirs into Consts
+* refactored how PHP debug.log is stored, in wp-content and in the archive
+* refactored admin cookies for admin bar algorithm
+* added settings for multi-IP setup
+* refactored all parts dealing with DB and Error log filenames to match the option of multi-IP
+* debug file and error-log SQLite DB filename change with changes multi-IP settings
+* cleanup and moved code from universal-functions.php to make leaner memory impact
+* added included PHP files in WP Admin Bar
+* parent file made leaner
+* orders files in includes
+* running cron jobs via Ajax to have the server's IP address
+* changed namespaces and global namespaced files using a constant with namespace
+* refactored login logic and displaying the admin bar
+* updated Docs
+
 == 1.32 | 6th July 2025 ==
 * bugfix script printed in other than admin/FE request type
 * moved cron function into private file
@@ -37,7 +87,7 @@
 * deleted cookies after logout
 
 == 1.25 | 21th February 2025 ==
-* fatal error bugfix when deleted mu-plugin thrown fatal error
+* bugfix a fatal error that occurred when the plugin was deleted, the mu-plugin caused a fatal error
 * changed version number
 
 == 1.1.24 | 21th February 2025 ==
@@ -49,7 +99,7 @@
 * added argument for tm() to return microseconds integer instead of the default string
 
 == 1.1.22 | 09th February 2025 ==
-* bugfix for bcsub() rare error converting float into scientific notion
+* bugfix for bcsub() rare error converting float into scientific notation
 * refactored into class writing fragments into DB
 * updated PRAGMA when writing the error right away
 * update writing fragments before displaying queried data - added limit when prompt is not displayed
@@ -313,3 +363,4 @@
 
 == 1.0.0 | 31th January 2024 ==
 * Initial Version 1.0.0 Plugin Boilerplate base code copied
+
