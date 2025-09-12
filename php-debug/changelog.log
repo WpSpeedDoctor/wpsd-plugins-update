@@ -1,3 +1,6 @@
+== 1.34 12th September 2025 ==
+* updated get_wp_request_type()
+
 == 1.33 29th August 2025 ==
 * added `get_wpsd_plugin_included_files($slug)` function
 
@@ -363,4 +366,5 @@
 
 == 1.0.0 | 31th January 2024 ==
 * Initial Version 1.0.0 Plugin Boilerplate base code copied
+
 
