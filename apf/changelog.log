@@ -1,3 +1,9 @@
+== 1.53 3rd | 4th November 2025 ==
+* Added bulk edit menu
+* updated get_wp_request_type()
+* updated .pot and translations
+* object cache code optimized
+
 == 1.52 12th September 2025 ==
 * updated get_wp_request_type()
 
@@ -269,5 +275,6 @@
 == 1.0.0 | 23rd November 2023 ==
 * Initial Version
 * CPT
+
 
 
