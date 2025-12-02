@@ -1,3 +1,10 @@
+== 1.41 | 29th November 2025 ==
+* added internal link discovery + checkbox in the settings menu
+* bugfix stats summary incorrect total crawled URLs
+* add check and warning for old cURL version
+* dropped 0 from the version number
+* PHP 8.5 compatibility check
+
 == 1.0.40.1 | 28th August 2025 ==
 * bugfix sitemap URLs having a trailing slash when not needed
 
@@ -74,5 +81,6 @@
 
 == 1.0.25 | 10th April 2024 ==
 * bugfix compatibility 7.4
+
 
 
