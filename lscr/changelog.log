@@ -1,3 +1,8 @@
+== 1.42 | 4th December 2025 ==
+* bugfix discovered links
+* removed mu plugin
+* added 0 (cURL Error) in stats menu response code dropdown
+
 == 1.41 | 29th November 2025 ==
 * added internal link discovery + checkbox in the settings menu
 * bugfix stats summary incorrect total crawled URLs
@@ -81,6 +86,7 @@
 
 == 1.0.25 | 10th April 2024 ==
 * bugfix compatibility 7.4
+
 
 
 
