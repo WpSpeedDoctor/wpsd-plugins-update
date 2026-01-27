@@ -1,3 +1,9 @@
+== 1.54 19th December 2025 ==
+* bugfix rule plugins occasional class type instead of array
+
+== 1.53.2 13th November 2025 ==
+* CPT registration tweaks, removed rewrites
+
 == 1.53.1 5th November 2025 ==
 * updated get_wp_request_type()
 
@@ -278,6 +284,7 @@
 == 1.0.0 | 23rd November 2023 ==
 * Initial Version
 * CPT
+
 
 
 
