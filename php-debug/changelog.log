@@ -1,3 +1,27 @@
+== 1.36 15th February 2026 ==
+* bugfix LOGGED_IN_COOKIE fatal error on multisite
+* refactored setting cookie for admin bar and logic when display admin bar
+* multisite only activated on Network
+
+== 1.35.1 14th November 2025 ==
+* add index to DB upon activation
+
+== 1.35 Release 7th November 2025 ==
+* improved search performance and regex algorithm
+* added into Info menu all databases list with size, start and end day of their records
+* added request type into metadata
+* added pagination toggle in menu
+
+== 1.35 beta4 6th November 2025 ==
+* added request type into meta
+* added "time ago" when error happened
+
+== 1.35 beta3 14th October 2025 ==
+* added exception handling
+
+== 1.35 beta1 13th October 2025 ==
+* bugfix, error prevention when corrupted fragment file is loaded.
+
 == 1.34 12th September 2025 ==
 * updated get_wp_request_type()
 
@@ -366,5 +390,6 @@
 
 == 1.0.0 | 31th January 2024 ==
 * Initial Version 1.0.0 Plugin Boilerplate base code copied
+
 
 
