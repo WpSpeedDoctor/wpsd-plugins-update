@@ -1,10 +1,10 @@
 {
-    "version": "1.36",
-    "download_link": "https://github.com/WpSpeedDoctor/wpsd-plugins-update/raw/refs/heads/main/php-debug/wpsd-php-debug-1.36.zip",
+    "version": "1.37",
+    "download_link": "https://github.com/WpSpeedDoctor/wpsd-plugins-update/raw/refs/heads/main/php-debug/wpsd-php-debug-1.37.zip",
     "requires": "5.9",
-    "tested": "6.9.1",
+    "tested": "6.9.4",
     "requires_php": "7.4",
-    "last_updated": "2026-02-15",
+    "last_updated": "2026-02-26",
     "sections": {
     }
   }
