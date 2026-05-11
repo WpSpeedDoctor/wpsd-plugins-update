@@ -1,0 +1,10 @@
+{
+  "version": "0.8",
+  "download_link": "https://github.com/WpSpeedDoctor/wpsd-plugins-update/raw/refs/heads/main/ls-css-helper/wpsd-ls-css-helper.zip",
+  "requires": "5.9",
+  "tested": "6.9.4",
+  "requires_php": "8.0",
+  "last_updated": "2026-05-11",
+  "sections": {
+  }
+}

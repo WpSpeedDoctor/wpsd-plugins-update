@@ -1,0 +1,49 @@
+== 0.8 11th May 2026 ==
+* Update & upload to Github
+
+== 0.7 5th-10th May 2026 ==
+* Menu home shows last 10 traces
+* testing
+
+== 0.6 1st,2nd,4th May 2026 ==
+* REST API for breach monitoring
+* breach log cleanup via cron
+* Added this server IP into CF Header menu
+
+== 0.5 22nd, 23rd,25th,26th,27th,28th,29th April 2026 ==
+* DB WP storing in buffer and inserting into WPDB
+* deprecated WP DB infavour on staring just files on disk
+* Chaged Loggging into Logging and Breach monitoring
+* refactored logging files
+* moved stored data into session_tokens usermeta
+* refactored ip change code
+* optimized and removed deprecated code from mu-plugin
+* optimization of htaccess, setting variables approach.
+
+== 0.4.1 9th,10th,11th,12th,14th April 2026 ==
+* scrapped internal logging, WPSD log plugin is used for logging into metadata column
+* wpdb htaccess log
+
+== 0.4 9th April 2026 ==
+* db write classes, sqlite insert
+== 0.3 3rd,4th,5th,6th,7th,8th April 2026 ==
+* async buffer write from mu, query parsed and htaccess
+* postponed user role enforcement
+* testing
+* saved data structure optimized
+* db and log classes working together
+
+
+== 0.2 23rd,24th,25th,26th,27th,30th,31st March & 1st,2nd,3rd,4th,5th April 2026 ==
+* class htaccess - cf headers
+* class Auth_Control
+* login/logout
+* mu cookie check
+* save login data in options/object cache.
+* early 403/403
+* mu false auth attempt
+* mu early 403/403
+
+== 0.1 19th,20th,21st,22nd March 2026 ==
+* plugin boilerplate v 2.0 adjustments
+* settings UI and classes
