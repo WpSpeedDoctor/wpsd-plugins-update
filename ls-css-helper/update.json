@@ -1,10 +1,10 @@
 {
-  "version": "1.0",
-  "download_link": "https://github.com/WpSpeedDoctor/wpsd-plugins-update/raw/refs/heads/main/ls-css-helper/wpsd-ls-css-helper.zip",
+  "version": "1.4",
+  "download_link": "https://github.com/WpSpeedDoctor/wpsd-plugins-update/raw/refs/heads/main/ls-css-helper/wpsd-ls-css-helper-1-4.zip",
   "requires": "5.9",
-  "tested": "6.8.1",
+  "tested": "7.0",
   "requires_php": "7.0",
-  "last_updated": "2025-05-23",
+  "last_updated": "2025-06-02",
   "sections": {
   }
 }
