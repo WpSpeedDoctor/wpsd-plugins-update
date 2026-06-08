@@ -1,3 +1,9 @@
+== 1.5 | 3rd - 5th June 2026 ==
+* added async css load
+* added shared WPSD menu
+* bugfixes
+* added filter for CCSS vary `wpsd-ls-ccss-vary`
+
 == 1.4 | 2nd June 2026 ==
 * bugfix DOM reduction for CCSS happened after first scan for selectors
 * changed plugin slug
