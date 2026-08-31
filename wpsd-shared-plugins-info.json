@@ -1,0 +1,36 @@
+{
+  "locale": {
+    "en": {
+      "heading": "Plugins that make websites faster and web administrators' work easier.",
+      "tagline": "All my plugins are built to be fast and use minimal CPU and memory resources.",
+      "section_title": "Current plugins",
+      "footer": "More plugins coming soon!",
+      "plugins": [
+        {
+          "name": "Advanced Plugin Filter",
+          "description": "Reduce initial server response time (TTFB) by disabling useless plugins.",
+          "url": "https://wpspeeddoctor.com/plugins/advanced-plugin-filter/",
+          "image_url": ""
+        },
+        {
+          "name": "LiteSpeed CCSS and UCSS Helper",
+          "description": "Automatically detect selectors created by JavaScript and add them to the LiteSpeed Cache settings.",
+          "url": "https://wpspeeddoctor.com/plugins/litespeed-ccss-and-ucss-helper/",
+          "image_url": ""
+        },
+        {
+          "name": "Lightweight Slider for WordPress",
+          "description": "The most lightweight slider for WordPress based on Splide.js.",
+          "url": "https://wpspeeddoctor.com/plugins/lightweight-slider-for-wordpress/",
+          "image_url": ""
+        },
+        {
+          "name": "LiteSpeed Crawler",
+          "description": "A custom cache preload solution for LiteSpeed Cache with enhanced statistics reporting.",
+          "url": "https://wpspeeddoctor.com/plugins/litespeed-crawler/",
+          "image_url": ""
+        }
+      ]
+    }
+  }
+}
