@@ -1,3 +1,80 @@
+== 1.39.3 9th,15th September 2026 ==
+* Toggles menu sets user preferences when no toggle cookies are set
+* tweaked CSS for URI Path, avoiding too long path on the screen
+* menu fetch can select only one action to execute
+
+== 1.39.2 7th September 2026 ==
+* bugfix PostmanEmailAddress not converted to string
+
+== 1.39.1 1st September 2026 ==
+* bugfix WP_Error causing fatal error
+* shortening stack trace info of arguments
+* error handler private reviewd with AI
+* tests added
+
+== 1.39 31st August 2026 ==
+* bugfix From email header crash caused by plugin Post SMTP
+* refactored Shared_Admin_Menu
+* refactored stack trace for requests and emails
+* UI small fixes, displaying arrow and spaces in errors messages 
+
+== 1.38.4 24th August 2026 ==
+* bugfix From email header crash
+
+== 1.38.3 15th August 2026 ==
+* added support for User Switching plugin
+
+== 1.38.2 14th August 2026 ==
+* bugfix missing fetch hook argument
+
+== 1.38.1 11th August 2026 ==
+* added hook wpsd-debug-fetch
+* added fetching WPSD plugins content from GitHub
+
+== 1.38 3rd July 2026 ==
+* testing
+* updated darkmode injection plugin
+
+== 1.38 beta 7 29th June 2026 ==
+* bugfix cron cleanup time occasional fail
+* added SQL recommended values into Checklist tab, added CPU cores available
+
+== 1.38 beta 6 19th,20th,26th,27th,28th June 2026 ==
+* remove legacy download code
+* refactored dark mode for admin
+* set foundation for dark mode standard for WPSD plugins
+* added into tab Info MariaDB/MySQL settings
+* added tab Fetch for easy run test code
+* updated docs
+
+== 1.38 beta 5 19th,20th June 2026 ==
+* min PHP version 8.0
+* added logging WP doing it wrong under E_USER_WARNING
+
+== 1.38 beta 4 19th,20th June 2026 ==
+* added cURL errors logging
+* added failed emails into logging and email reporting
+* refactored shutdown function
+* refactored public and private function of error handling
+* refactored storing errors, using disk above certain count to prevent memory exhaution
+* refactored admin menus to be available when plugin filter applied
+* added toggle to filter othen than wpsd plugin on debug page
+
+== 1.38 beta 3 12th, 13th, 19th June 2026 ==
+* added Admin bar menu
+* added Exclude logging strings
+* added tab Admin bar, moved toggles from settings
+* added WP admin shortcuts to admin bar
+* added tab Checklist
+* added CPU benchmark into Info tab
+* added CPU model into Info tab
+* bugfix vd() edge case called from class.
+* moved menu to WPSD Plugins
+
+== 1.37.1 19th May 2026 ==
+* small bug fixes, info menu
+* prevent memory exhaution
+
 == 1.37 26th February 2026 ==
 * bugfix double time written debl() into DB.
 * added "time ago" for debl()
