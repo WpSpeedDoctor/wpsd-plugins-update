@@ -1,5 +1,5 @@
 {
-    "version": "1.37",
+    "version": "1.39.3",
     "download_link": "https://github.com/WpSpeedDoctor/wpsd-plugins-update/raw/refs/heads/main/php-debug/wpsd-php-debug-1-39-3.zip",
     "requires": "5.9",
     "tested": "7.1",
