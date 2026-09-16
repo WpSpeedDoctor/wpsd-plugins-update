@@ -1,0 +1,145 @@
+== 1.0.0 beta1 16th September 2026 ==
+* rebranded to Bot Defense
+* added password generator into Guide tab
+
+== 0.9.9 beta1 7th September 2026 ==
+* testing
+* removed debug tab
+* updated guide
+
+== 0.9.8 beta8 31st August 2026 ==
+* refactored shared WPSD plugins menu
+
+== 0.9.8 beta7 24th-30th August 2026 ==
+* vulnerability search with AI models
+* testing
+
+== 0.9.8 beta6 23rd August 2026 ==
+* added checkbox to activate mu plugin and htaccess
+
+== 0.9.8 beta5 23rd August 2026 ==
+* removed file based indexed list of external blacklisted ips
+* added Sqlite and WPDB for storging and quering blacklisted ips
+* added APCu for not blacklisted ips
+
+== 0.9.8 beta4 22nd August 2026 ==
+* added never fail2ban ASN
+* bugfix merge default settings
+* bugfix -n apache attribute replaced
+* added external blackists
+
+== 0.9.8 beta3 21st August 2026 ==
+* added whitelist of other users roles
+* added new whitelist header to be set in CF
+* refactored fail2ban template index.php
+* moved fail2ban code into own class
+* excluded known bots from fail to ban, they will receive only 403
+* tab Blocked IPs allows filter data by column
+* updated Guide tab
+
+== 0.9.8 beta1 16th,17th August 2026 ==
+* renamed cf header to bypass guard
+* added info icons and modal to Settings tab
+* added tab Blocked IPs
+* bugfix cron not staring
+* added polite 403 url to early return
+* autoload classes optimized
+
+
+== 0.9.7 beta7 28th-27th July 2026 ==
+* checked database folders, moved bot lockdown file into local db dir
+
+== 0.9.7 beta6 25th-27th July 2026 ==
+* fail2ban moved from rewrite rules to request header rule
+* bugfix prevent setting cf header rule when it not set or the same as present header.
+
+== 0.9.7 beta3 22nd-24th July 2026 ==
+* testing on OLS
+* refactored htaccesss env variables to http only
+* removed adding missing headers
+
+== 0.9.7 beta2 21st July 2026 ==
+* added fail2ban
+
+== 0.9.7 beta1 20th July 2026 ==
+* bugfix openlitespeed htaccess rules fix
+* guide has now values in input boxes easy to copy paste
+
+== 0.9.6 beta3 10th,11th,12th July 2026 ==
+* rate limiting for bots
+
+== 0.9.5 beta2 4th July 2026 ==
+* Guide better showing present heders and matching id header
+
+== 0.9.4 beta1 30th June 2026 ==
+* code polish and testing
+* removed darkmode CSS
+* added support for wpsd-darkmode
+
+== 0.9.3 16th June 2026 ==
+* removed CF header, fixed value ID_CF used
+* dark mode CSS fixed
+
+== 0.9.2 18th, 19th May 2026 ==
+* Tab Guide & Docs
+* renamed added headers in CF
+* testing and code polish
+
+== 0.9.1 14th May 2026 ==
+* settings compressed using integers as keys instead of strings
+* class Settings split into smaller classes
+* bugfix missing class fatal error
+
+== 0.9 12th,13th May 2026 ==
+* finnal testing and code cleanup
+* adjusted CF additional headers
+
+== 0.8 11th May 2026 ==
+* Update & upload to Github
+
+== 0.7 5th-10th May 2026 ==
+* Menu home shows last 10 traces
+* testing
+
+== 0.6 1st,2nd,4th May 2026 ==
+* REST API for breach monitoring
+* breach log cleanup via cron
+* Added this server IP into CF Header menu
+
+== 0.5 22nd, 23rd,25th,26th,27th,28th,29th April 2026 ==
+* DB WP storing in buffer and inserting into WPDB
+* deprecated WP DB infavour on staring just files on disk
+* Chaged Loggging into Logging and Breach monitoring
+* refactored logging files
+* moved stored data into session_tokens usermeta
+* refactored ip change code
+* optimized and removed deprecated code from mu-plugin
+* optimization of htaccess, setting variables approach.
+
+== 0.4.1 9th,10th,11th,12th,14th April 2026 ==
+* scrapped internal logging, WPSD log plugin is used for logging into metadata column
+* wpdb htaccess log
+
+== 0.4 9th April 2026 ==
+* db write classes, sqlite insert
+== 0.3 3rd,4th,5th,6th,7th,8th April 2026 ==
+* async buffer write from mu, query parsed and htaccess
+* postponed user role enforcement
+* testing
+* saved data structure optimized
+* db and log classes working together
+
+
+== 0.2 23rd,24th,25th,26th,27th,30th,31st March & 1st,2nd,3rd,4th,5th April 2026 ==
+* class htaccess - cf headers
+* class Auth_Control
+* login/logout
+* mu cookie check
+* save login data in options/object cache.
+* early 403/403
+* mu false auth attempt
+* mu early 403/403
+
+== 0.1 19th,20th,21st,22nd March 2026 ==
+* plugin boilerplate v 2.0 adjustments
+* settings UI and classes
