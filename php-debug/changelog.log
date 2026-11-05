@@ -1,3 +1,32 @@
+== 1.41 25th, 28th, 29th October 2026 ==
+* reporting menu refactor
+* added reporting frequency
+* added email throttling
+* added elevated numbers of locations of PHP errors
+* added coping keys and values to clipboard in metadata
+* added copying error filename:line for IDE quick access
+
+== 1.40 23rd, 24th October 2026 ==
+* stored events, stack traces, and request metadata as compact JSON using Stored_Event constants
+* added wpsd-debug-errors and wpsd-debug-meta filters for customizing logged events and request metadata
+* added separate HTML renderers for PHP, HTTP, database, email, and debug events and metadata
+* exceptions now use the same structured stack format as PHP errors, preserving the original trace
+* added per-event expand/collapse controls; Display metadata opens all event sections
+* tightened event display spacing and made PHP Errors the default query filter
+* admin bar error previews now show only type, message, shortened file path, and line
+* removed cookie metadata logging and its settings
+* added validated client IP metadata, preferring HTTP_CF_CONNECTING_IP over REMOTE_ADDR
+* added Vacuum and Keep only today database actions with HTMX row updates
+* added Zipit database downloads in uploads, with generated ZIPs removed by daily cron
+* removed SQL database recommendations from Checklist; added PHP minimums 8.5.12, 8.4.27, 8.3.36, and 8.2.35 for those branches only, and SQLite 3.54.0 or newer
+* upgrades from versions below 1.40 disable remote success and error logging until re-enabled in settings
+* emergency URL and access to debug menu with all other plugins disabled.
+* refactored email reporting into extensible classes with the wpsd-debug-reporting filter and brief [Report] subject summaries
+* added separate report check intervals and hourly email limits; empty reports are not emailed and an empty email address disables reporting
+* added enabled-by-default options for PHP fatal error reports and record counts more than 20% above the matching period yesterday
+* moved settings explanations into information popups, with icons after labels
+* removed the Server checkbox; only listed Server Keys are saved, and an empty list disables server metadata collection
+
 == 1.39.5 29th September 2026 ==
 * darkmode bugfix
 
@@ -478,6 +507,3 @@
 
 == 1.0.0 | 31th January 2024 ==
 * Initial Version 1.0.0 Plugin Boilerplate base code copied
-
-
-
